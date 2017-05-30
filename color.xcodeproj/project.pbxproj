@@ -15,6 +15,7 @@
 		747827E71EDDAB4A00FC3874 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 747827E51EDDAB4A00FC3874 /* LaunchScreen.storyboard */; };
 		747827F21EDDAB4A00FC3874 /* colorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 747827F11EDDAB4A00FC3874 /* colorTests.m */; };
 		747827FD1EDDAB4A00FC3874 /* colorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 747827FC1EDDAB4A00FC3874 /* colorUITests.m */; };
+		747828101EDDCAFF00FC3874 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7478280F1EDDCAFF00FC3874 /* UIImage+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		747827F81EDDAB4A00FC3874 /* colorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = colorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		747827FC1EDDAB4A00FC3874 /* colorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = colorUITests.m; sourceTree = "<group>"; };
 		747827FE1EDDAB4A00FC3874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7478280E1EDDCAFF00FC3874 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		7478280F1EDDCAFF00FC3874 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				747827DB1EDDAB4A00FC3874 /* AppDelegate.m */,
 				747827DD1EDDAB4A00FC3874 /* ViewController.h */,
 				747827DE1EDDAB4A00FC3874 /* ViewController.m */,
+				7478280E1EDDCAFF00FC3874 /* UIImage+Extension.h */,
+				7478280F1EDDCAFF00FC3874 /* UIImage+Extension.m */,
 				747827E01EDDAB4A00FC3874 /* Main.storyboard */,
 				747827E31EDDAB4A00FC3874 /* Assets.xcassets */,
 				747827E51EDDAB4A00FC3874 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				747828101EDDCAFF00FC3874 /* UIImage+Extension.m in Sources */,
 				747827DF1EDDAB4A00FC3874 /* ViewController.m in Sources */,
 				747827DC1EDDAB4A00FC3874 /* AppDelegate.m in Sources */,
 				747827D91EDDAB4A00FC3874 /* main.m in Sources */,
